@@ -38,23 +38,13 @@ header{
   position: absolute;
   right: 10px;
   top: 10px;
+  background: url(web-log-in-w.svg) no-repeat 80%;
+  background-size: 30px 30px;
+  padding-right: 60px;
 }
 .sign:hover{
   box-shadow: 0 0 20px #fff;
-}
-.icon-signin{
-  margin: -3px 0 0 10px;
-  float: right;
-  height: 30px;
-  width: 30px;
-  background: url("web-log-in-w.svg");
-  background-size: 30px 30px;
-}
-
-.btn-light:hover .icon-signin{
-  background: url("web-log-in.svg") no-repeat;
-  height: 30px;
-  width: 30px;
+  background: url(web-log-in.svg) #fff no-repeat 80%;
   background-size: 30px 30px;
 }
 

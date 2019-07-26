@@ -20,11 +20,9 @@ button:active{
 }
 
 .btn-light{
-  background: none;
   border: 1px solid #fff;
 }
 .btn-light:hover{
-  background: #fff;
   color: rgba(0,0,0,1);
 }
 .btn-green{
