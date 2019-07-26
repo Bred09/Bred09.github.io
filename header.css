@@ -35,15 +35,11 @@ header{
   text-shadow: 0 0 5px #fff;
 }
 .sign{
-  position: absolute;
-  right: 10px;
-  top: 10px;
   background: url(web-log-in-w.svg) no-repeat 80%;
   background-size: 30px 30px;
   padding-right: 60px;
 }
 .sign:hover{
-  box-shadow: 0 0 20px #fff;
   background: url(web-log-in.svg) #fff no-repeat 80%;
   background-size: 30px 30px;
 }
@@ -51,4 +47,10 @@ header{
 
 .btn-show{
   display: none;
+  background: none;
 }
+.btn-show:hover{
+  background: #fff;
+}
+
+  
