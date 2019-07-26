@@ -1,0 +1,64 @@
+header{
+  background-image: url(http://catcut.net/h9IB);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.img{
+  padding: 300px 0px;
+  text-align: center;
+}
+
+.shadow{
+  background: radial-gradient(60% 40%, rgba(0,0,0,0), #000);
+  opacity: 0.9;
+}
+
+.top-nav{
+  padding: 23px 0;
+  margin: auto;
+  width: 615px;
+}
+.logo{
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.menu-item{
+  padding-right: 30px;
+}
+.menu-item:hover{
+  text-shadow: 0 0 5px #fff;
+}
+.sign{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.sign:hover{
+  box-shadow: 0 0 20px #fff;
+}
+.icon-signin{
+  margin: -3px 0 0 10px;
+  float: right;
+  height: 30px;
+  width: 30px;
+  background: url("web-log-in-w.svg");
+  background-size: 30px 30px;
+}
+
+.btn-light:hover .icon-signin{
+  background: url("web-log-in.svg") no-repeat;
+  height: 30px;
+  width: 30px;
+  background-size: 30px 30px;
+}
+
+
+.btn-show{
+  display: none;
+}
