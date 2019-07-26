@@ -1,6 +1,6 @@
 .sbox{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 10px 10px 1fr;
   grid-template-rows: 1fr;
 }
 
