@@ -1,7 +1,7 @@
 .sbox{
   display: grid;
-  grid-template-columns: 1fr 10px 10px 1fr;
-  grid-template-rows: 1fr;
+  justify-content: center;
+  grid: 1fr/repeat(auto-fit, minmax(auto, 419px));
 }
 
 .hr{

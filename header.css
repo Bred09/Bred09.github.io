@@ -53,4 +53,15 @@ header{
   background: #fff;
 }
 
-  
+.mobile-menu{
+  background: rgba(251,1,1,1);
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 200px;
+  display: none;
+  transition: 5s;
+}
+.menu-item{
+  color: #fff;
+}
