@@ -54,14 +54,36 @@ header{
 }
 
 .mobile-menu{
-  background: rgba(251,1,1,1);
+  position: fixed;
+  right: -100%;
+  transition: right 1s ease-in-out;
+}
+.mm-menu-items{
+  padding: 50px;
+}
+
+.show{
+  background: #000;
   position: fixed;
   right: 0px;
   top: 0px;
-  width: 200px;
-  display: none;
-  transition: 5s;
+  min-width: 50%;
+  right: 0;
+  transition: right 1s ease-in-out;
+  width: 100%;
+  height: 100%;
 }
-.menu-item{
+.mm-menu-item{
   color: #fff;
+  display: block;
+  border-bottom: 1px solid;
+  padding: 20px 0;
+}
+.mm-menu-item:hover{
+  text-shadow: 0 0 5px #fff;
+  border-bottom: 2px solid;
+}
+
+.mm-header{
+  height: 70px;
 }
