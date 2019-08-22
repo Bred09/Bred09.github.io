@@ -14,7 +14,6 @@ var mobileMenu = document.querySelector('.mobile-menu');
 
 btnShow.onclick = function () {
 	mobileMenu.classList.add('show');
-	btnShow.classList.add('close');
 
 
 	setTimeout(f1, 3000);
