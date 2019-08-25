@@ -38,6 +38,9 @@ header{
   background: url(web-log-in-w.svg) no-repeat 80%;
   background-size: 30px 30px;
   padding-right: 60px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 .sign:hover{
   background: url(web-log-in.svg) #fff no-repeat 80%;
@@ -48,6 +51,9 @@ header{
 .btn-show{
   display: none;
   background: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 .btn-show:hover{
   background: #fff;
@@ -55,6 +61,9 @@ header{
 
 .btn-close{
   font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 .btn-close:hover{
   background: #fff;
@@ -77,7 +86,7 @@ header{
   position: fixed;
   right: 0;
   top: 0;
-  transition: 1s;
+  transition: 0.5s;
   width: 100%;
   height: 100%;
 }
