@@ -6,3 +6,17 @@ document.querySelector('.btn-show').onclick = () => {
 document.querySelector('.btn-close').onclick = () => {
 	mobileMenu.classList.remove('show');
 };
+
+var bArrow = document.querySelector('.b-arrow');
+
+function f1() {
+	bArrow.classList.add('move');
+
+	function f2() {
+	bArrow.classList.remove('move');
+	}
+
+	setTimeout(f2, 1000);
+}
+
+setInterval(f1, 2000);

@@ -43,6 +43,20 @@ button:active{
 
 
 @media screen and (max-width: 965px){
+  .sbox{
+    grid: 1fr 1fr / 1fr;
+    text-align: center;
+  }
+  .sbox1{
+    text-align: center;
+  }
+  .box2{
+    background: red;
+    grid: 1fr 1fr 1fr / 1fr;
+  }
+  .user.a{
+    grid-column: 1/2;
+  }
   .top-nav{
     display: none;
   }
