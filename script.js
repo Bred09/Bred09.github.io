@@ -9,6 +9,8 @@ document.querySelector('.btn-close').onclick = () => {
 
 var bArrow = document.querySelector('.b-arrow');
 
+f1()
+
 function f1() {
 	bArrow.classList.add('move');
 
@@ -16,7 +18,7 @@ function f1() {
 	bArrow.classList.remove('move');
 	}
 
-	setTimeout(f2, 1000);
+	setTimeout(f2, 500);
 }
 
-setInterval(f1, 2000);
+setInterval(f1, 5000);
