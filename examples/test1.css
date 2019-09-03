@@ -1,0 +1,14 @@
+body{
+	background: #;
+}
+
+.signup{
+	color: #1cb0f6;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: sans;
+	cursor: pointer;
+}
+.signup:hover{
+	color: darkcyan;
+}

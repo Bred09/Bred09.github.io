@@ -1,0 +1,25 @@
+header{
+  background: greenyellow;
+  height: 100px;
+}
+.find-box{
+  width: 70%;
+  margin: auto;
+  padding: 25px 000;
+}
+form{
+  
+}
+input{
+  border-radius: 15px;
+  padding: 9px 30px;
+  width: 40%;
+  border: solid 2px #afafaf;
+  color: #454545;
+  font-size: 20px;
+}
+input:focus{
+  border: solid 2px #1cb0f6;
+}
+button{
+}

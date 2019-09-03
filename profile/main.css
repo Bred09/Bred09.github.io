@@ -1,0 +1,42 @@
+main{
+  width: 900px;
+  margin: auto;
+}
+
+.user{
+  background: gray;
+  margin: 500px 0 0 50px;
+  float: left;
+}
+
+.avatar{
+  border: solid 2px #86de00;
+}
+
+.phon{
+  height: 500px;
+  background-image: url(http://catcut.net/h9IB);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-info{
+  background: green;
+  height: 200px;
+}
+
+.menu{
+  background: orangered;
+  height: 70px;
+}
+li{
+  display: table-cell;
+  width: 100%;
+}
+.menu-item{
+  background: red;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 30px;
+}
