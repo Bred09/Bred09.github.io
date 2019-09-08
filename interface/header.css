@@ -5,21 +5,26 @@ header{
 .find-box{
   width: 70%;
   margin: auto;
-  padding: 25px 000;
-}
-form{
-  
+  padding: 25px 0;
 }
 input{
   border-radius: 15px;
   padding: 9px 30px;
-  width: 40%;
+  width: 70%;
   border: solid 2px #afafaf;
   color: #454545;
   font-size: 20px;
+  position: relative;
+  top: -5px;
 }
 input:focus{
   border: solid 2px #1cb0f6;
 }
-button{
+#find{
+  background: url('../img/search.svg') no-repeat 50% 50%;
+  width: 30px;
+  height: 30px;
+}
+form button{
+  margin: 0 25px 0 25px;
 }

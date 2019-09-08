@@ -1,7 +1,17 @@
 header nav a{
   color: #afafaf;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+header nav a:hover{
+  color: #1cb0f6;
 }
 header{
   margin: 20px 0 0 0;
   border-bottom: solid 4px #afafaf;
+  padding-bottom: 10px;
+}
+nav{
+  text-align: center;
 }

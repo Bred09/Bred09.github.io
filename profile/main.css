@@ -40,3 +40,6 @@ li{
   color: #fff;
   padding: 10px 30px;
 }
+.menu-item:hover{
+  background: orangered;
+}
