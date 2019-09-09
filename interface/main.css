@@ -1,3 +1,11 @@
 main{
   background: orangered;
+  margin: 100px;
+  padding: 50px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.stop{
+  display: none;
 }

@@ -1,6 +1,12 @@
 @media screen and (max-width: 965px){
-  form button{
-    margin-left: 35%;
+  .find-box{
+    display: block;
+  }
+  .top-nav{
+    display: none;
+  }
+  .btn-show{
+  display: block;
   }
 }
 

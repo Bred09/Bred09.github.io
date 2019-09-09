@@ -1,16 +1,17 @@
 header{
-  background: greenyellow;
+/*   background: #ccff7d; */
   height: 100px;
 }
 .find-box{
   width: 70%;
   margin: auto;
   padding: 25px 0;
+  display: none;
 }
 input{
   border-radius: 15px;
   padding: 9px 30px;
-  width: 70%;
+  width: 75%;
   border: solid 2px #afafaf;
   color: #454545;
   font-size: 20px;
@@ -26,5 +27,97 @@ input:focus{
   height: 30px;
 }
 form button{
-  margin: 0 25px 0 25px;
+  margin-left: 10px;
+}
+
+.top-nav{
+  padding: 23px 0;
+  margin: auto;
+  width: 615px;
+}
+.logo{
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: greenyellow;
+}
+.menu-item{
+  padding-right: 30px;
+}
+.menu-item:hover{
+  color: #86de00;
+}
+.sign{
+  background: url(./img/web-log-in-w.svg) no-repeat 80%;
+  background-size: 30px 30px;
+  padding-right: 60px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.sign:hover{
+  background: url(./img/web-log-in.svg) #fff no-repeat 80%;
+  background-size: 30px 30px;
+}
+
+
+.btn-show{
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.btn-close{
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.mobile-menu{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 1s;
+  width: 100%;
+  height: 100%;
+}
+.mm-menu-items{
+  padding: 50px;
+}
+
+.show{
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+}
+
+.mm-mi-border-b{
+  border-bottom: 1px solid;
+  text-align: center;
+}
+.border-none{
+  border: none;
+}
+.mm-menu-item{
+  display: block;
+  padding: 20px 0;
+}
+.mm-menu-item:hover{
+  color: #86de00;
+}
+
+.mm-header{
+  height: 70px;
+}
+
+a{
+  text-decoration: none;
 }
