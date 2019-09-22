@@ -79,26 +79,3 @@ button:active{
 .btn-img:hover{
   background-position-y: 45px;
 }
-
-/* Task */
-
-.div{
-  width: 900px;
-  margin: 50px auto;
-}
-div div{
-  background: gray;
-  padding: 50px 0 0 50px;
-  height: 100px;
-  width: 400px;
-  margin: 100px 0;
-}
-body{
-  background: #fff;
-}
-
-*{
-  font-family: sans;
-  margin:0;
-  padding:0;
-}

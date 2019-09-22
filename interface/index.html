@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../img/favicon.svg" type="image/svg">
 	<title>Cooki сайт о здоровой кулинарии</title>
 
-	<link rel="stylesheet" href="../examples/buttons/btn.css">
+	<link rel="stylesheet" href="btn.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="footer.css">
 	<link rel="stylesheet" href="header.css">
@@ -14,16 +15,25 @@
 <body>
 
 	<header>
-				<a href="/" class="logo"><h2>Cooki</h2></a>
+				<a href="/" class="logo">
+					<img src="../img/favicon.svg" alt="favicon" height="100">
+					<h2>Cooki</h2>
+				</a>
 
 
 				<div class="find-box">
 					<form action="">
-						<input type="text" placeholder="Введите рецепт или название ингреидента">
-						<button class="btn-blue"><h3 id="find"></h3></button>
-						<!-- <button class="btn-blue"><span id="find"></span></button> -->
+						<ul>
+							<li><input type="text" placeholder="Поиск рецептов"></li>
+							<li><button class="btn-blue find-b"><h3 id="find"></h3></button></li>
+						</ul>
 					</form>
 				</div>
+
+
+
+		<input class="find-i" type="text" placeholder="Поиск рецептов">
+		<button class="btn-blue find"><h3 id="find"></h3></button>
 
 
 				<nav class="top-nav">
@@ -33,11 +43,11 @@
 					<a href="" class="menu-item">Контакты</a>
 				</nav>
 
-				<button class="btn-green btn-show">&#9776;</button>
+				<button class="btn-gray btn-show">☰</button>
 
 				<nav class="mobile-menu">
 					<div class="mm-header">
-						<button class="btn-green btn-close">&#10006;</button>
+						<button class="btn-gray btn-close">✖</button>
 					</div>
 					<div class="mm-menu-items">
 						<h3 class="mm-mi-border-b"><a href="" class="mm-menu-item">Поиск рецептов</a></h3>
@@ -54,5 +64,5 @@
 	<footer>footer</footer>
 
 	<script src="script.js"></script>
-</body>
-</html>
+
+</body></html>

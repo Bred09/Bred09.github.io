@@ -1,0 +1,18 @@
+@media screen and (max-width: 965px){
+  .find-box{
+    display: block;
+  }
+  .top-nav{
+    display: none;
+  }
+  .btn-show{
+  display: block;
+  }
+  .find{
+    display: none;
+  }
+}
+
+
+
+*{margin:0;padding:0;}

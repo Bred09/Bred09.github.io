@@ -35,16 +35,17 @@ header{
   color: #86de00;
 }
 .sign{
-  background: url(./img/web-log-in-w.svg) no-repeat 80%;
-  background-size: 30px 30px;
-  padding-right: 60px;
+  background: url(./img/sign-img.svg) no-repeat 85%;
+  background-size: 55px 55px;
+  background-position-y: -19px;
+  padding-right: 65px;
   position: absolute;
   right: 10px;
   top: 10px;
 }
 .sign:hover{
-  background: url(./img/web-log-in.svg) #fff no-repeat 80%;
-  background-size: 30px 30px;
+  background-color: #fff;
+  background-position-y: 8px;
 }
 
 

@@ -3,38 +3,64 @@ header{
   height: 100px;
 }
 .find-box{
-  width: 70%;
-  margin: auto;
-  padding: 25px 0;
   display: none;
+  margin: 0 100px;
+  text-align: center;
+}
+form{
+  width: 100%;
+}
+ul{
+  width: 100%;
+}
+li{
+  display: inline;
 }
 input{
   border-radius: 15px;
-  padding: 9px 30px;
-  width: 75%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border: solid 2px #afafaf;
   color: #454545;
   font-size: 20px;
-  position: relative;
-  top: -5px;
+  padding: 15px;
+  width: 60%;
 }
 input:focus{
   border: solid 2px #1cb0f6;
 }
-#find{
-  background: url('../img/search.svg') no-repeat 50% 50%;
-  width: 30px;
-  height: 30px;
-}
-form button{
-  margin-left: 10px;
+.find-b{
+  position: relative;
+  right: 10px;
+  top: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.top-nav{
-  padding: 23px 0;
-  margin: auto;
-  width: 615px;
+.find{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 100px;
 }
+#find{
+  background: url('../img/search.svg') no-repeat 50% 50%;
+  background-size: 20px;
+  width: 20px;
+  height: 38px;
+}
+.find-i{
+  display: ;
+  position: absolute;
+  top: -70px;
+  border-radius: 15px;
+}
+.f-show{
+  transition: 1s;
+  display: block;
+  top: 10px;
+}
+
 .logo{
   padding: 10px;
   position: absolute;
@@ -48,18 +74,6 @@ form button{
 .menu-item:hover{
   color: #86de00;
 }
-.sign{
-  background: url(./img/web-log-in-w.svg) no-repeat 80%;
-  background-size: 30px 30px;
-  padding-right: 60px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-.sign:hover{
-  background: url(./img/web-log-in.svg) #fff no-repeat 80%;
-  background-size: 30px 30px;
-}
 
 
 .btn-show{
@@ -69,7 +83,6 @@ form button{
   top: 10px;
 }
 
-
 .btn-close{
   font-size: 20px;
   position: absolute;
@@ -78,6 +91,7 @@ form button{
 }
 
 .mobile-menu{
+  color: #fff;
   position: fixed;
   top: 0;
   right: -100%;
@@ -85,12 +99,15 @@ form button{
   width: 100%;
   height: 100%;
 }
+.mobile-menu a{
+  color: #fff;
+}
 .mm-menu-items{
   padding: 50px;
 }
 
 .show{
-  background: rgba(0,0,0,.8);
+  background: rgba(120,200,0);
   position: fixed;
   right: 0;
   top: 0;
