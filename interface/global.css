@@ -11,6 +11,9 @@
   .find{
     display: none;
   }
+  .f-show{
+    display: none;
+  }
 }
 @media screen and (max-width: 450px){
   .find-box{
