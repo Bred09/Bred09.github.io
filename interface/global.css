@@ -15,7 +15,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 475px){
   .find-box{
     display: none;
   }
@@ -24,14 +24,6 @@
   }
   .find{
     display: none;
-  }
-}
-@media screen and (max-width: 472px){
-  input{
-    border-radius: 15px;
-  }
-  .find-b{
-    border-radius: 100px;
   }
 }
 

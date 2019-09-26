@@ -1,0 +1,82 @@
+button{
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+button:hover{
+  filter: brightness(1.2);
+}
+button:active{
+  transform: translateY(4px);
+}
+
+.btn-light{
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.btn-light:not(:active){
+  border-bottom: 4px solid #a4a4a4;
+  background: none;
+}
+.btn-light:hover{
+  box-shadow: 0 0 20px #fff;
+  color: #000;
+  background: #fff;
+}
+
+.btn-gray{
+  background: #fff;
+  color: #afafaf;
+  border: solid 2px #e5e5e5;
+}
+.btn-gray:not(:active){
+  background: #fff;
+  color: #afafaf;
+  border: solid 2px #e5e5e5;
+  border-bottom: solid 4px #e5e5e5;
+}
+.btn-gray:hover{
+  filter: brightness(.9);
+}
+.btn-green{
+  background: greenyellow;
+}
+.btn-green:not(:active){
+  border-bottom: 4px solid #78c800;
+}
+.btn-blue{
+  background: #4ec6ff;
+}
+.btn-blue:not(:active){
+  border-bottom: 4px solid #1899d6;
+}
+.btn-link{
+  cursor: pointer;
+  background: none;
+  color: #1cb0f6;
+}
+.btn-disable{
+  background: #e5e5e5;
+  color: #afafaf;
+}
+.btn-disable:hover{
+  filter: none;
+  cursor: default;
+}
+.btn-disable:active, .btn-link:active{
+  transform: none;
+}
+.btn-img{
+  background: url(http://htmlbook.ru/example/images/mark.png);
+  background-size: 100px 90px;
+  color: #000;
+}
+.btn-img:hover{
+  background-position-y: 45px;
+}

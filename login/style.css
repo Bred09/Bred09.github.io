@@ -1,0 +1,40 @@
+.in{
+  display: none;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+input{
+  border-radius: 15px;
+  border: solid 4px #afafaf;
+  color: #454545;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0;
+}
+input:focus{
+  border-color: #1cb0f6;
+}
+
+li{
+  display: inherit;
+}
+.box{
+  background: red;
+  max-width: 500px;
+  margin: 2px auto;
+}
+
+body{
+  background: gray;
+}
+
+
+*{
+  font-family: sans;
+  margin:0;
+  padding:0;
+}
