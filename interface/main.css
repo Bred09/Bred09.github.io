@@ -1,7 +1,38 @@
 main{
-  background: orangered;
-  margin: 100px;
-  padding: 50px;
+  background: #75ad1e;
+  margin: 80px;
+  padding: 10px;
   color: #fff;
   font-size: 50px;
+}
+
+.grid{
+  display: grid;
+  grid: repeat(3, 1fr)/repeat(auto-fill, minmax(300px, auto));
+  grid-gap: 10px;
+}
+
+.food{
+  height: 300px;
+  background: #1cb0f6;
+  border-radius: 10px;
+}
+
+main img{
+  width: 50%;
+  height: 70%;
+  border-radius: 10px;
+}
+main span, p{
+  position: relative;
+  left: 10px;
+  top: -130px;
+  
+  color: #000;
+}
+main p{
+  font-size: 13px;
+}
+main span{
+  font-size: 25px;
 }

@@ -10,5 +10,11 @@ document.querySelector('.btn-close').onclick = () => {
 
 
 // Show find form
-
-	// code here
+var findI = document.querySelector('.find-i');
+var findB = document.querySelector('.find-b');
+var findH = document.querySelector('.fuck');
+findB.onclick = () => {
+	findI.style.width = findI.style.width == '90%' ? '0' : '90%';
+	findH.style.transform = findH.style.transform == 'rotateZ(-360deg)' ? 'rotate(0)' : 'rotateZ(-360deg)';
+	findH.style.transition = '1s';
+};

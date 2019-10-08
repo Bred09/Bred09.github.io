@@ -27,3 +27,9 @@ main > .box1{
   border-radius: 100px;
   border: solid 5px #86de00;
 }
+
+.other{
+  background: #afafaf;
+  border-radius: 5px;
+  padding: 50px;
+}
