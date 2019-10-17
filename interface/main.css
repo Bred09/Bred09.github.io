@@ -24,10 +24,6 @@ main img{
   border-radius: 10px;
 }
 main span, p{
-  position: relative;
-  left: 10px;
-  top: -130px;
-  
   color: #000;
 }
 main p{
