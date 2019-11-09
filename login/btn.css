@@ -57,7 +57,6 @@ button:active{
   border-bottom: 4px solid #1899d6;
 }
 .btn-link{
-  cursor: pointer;
   background: none;
   color: #1cb0f6;
 }

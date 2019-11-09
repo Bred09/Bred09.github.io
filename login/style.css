@@ -1,55 +1,134 @@
+.btn{
+  height: 48px;
+}
+
 .checkbox{
+  margin: 0 0 0 70px;
   border: solid 2px greenyellow;
   height: 25px;
   width: 25px;
   background: #fff;
+  float: left;
 }
 .checked{
+  margin: 0 0 0 70px;
   border: solid 2px greenyellow;
   height: 25px;
   width: 25px;
   background: url(../img/tick.svg) #fff no-repeat center;
   background-size: 80%;
+  float: left;
 }
-.show-pass{
+
+.t-c p{
+  margin: 5px 0 0 20px;
+  float: left;
+}
+
+.show{
   background: url(../img/eye.svg) center no-repeat;
-  background-size: 80%;
+  background-size: 100%;
   height: 25px;
   width: 25px;
+  margin: 0 0 0 486px;
+}
+.hide{
+  background: url(../img/eye_c.svg) center no-repeat;
+  background-size: 100%;
+  height: 25px;
+  width: 25px;
+  margin: 0 0 0 486px;
 }
 
-.in{
-  display: none;
+.btn-link:hover{
+  filter: brightness(1.2);
+  cursor: pointer;
 }
-
 
 a{
   text-decoration: none;
 }
 
 input{
-  border-radius: 15px;
-  border: solid 4px #afafaf;
+  border-right: solid 4px #afafaf;
+  border-left: solid 4px #afafaf;
   color: #454545;
   font-size: 20px;
   padding: 10px;
-  margin: 10px 0;
+  width: 90%;
 }
 input:focus{
   border-color: #1cb0f6;
+}
+.login{
+  border-bottom: solid 1.5px #afafaf;
+  border-top: solid 4px #afafaf;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.pass{
+  border-top: solid 1.5px #afafaf;
+  border-bottom: solid 1.5px #afafaf;
+  float: left;
+}
+.pass1{
+  border-top: solid 1.5px #afafaf;
+  border-bottom: solid 4px #afafaf;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 li{
   display: inherit;
 }
+
+hr{
+  background: #afafaf;
+  margin:30px 0;
+  border-top: none;
+}
+
+.show, .hide{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.pass-g1 .i{
+  top: -62px;
+}
+.h-i{
+  position: relative;
+  top: -62px;
+}
+
+.up, .in{
+  position: absolute;
+  transition: 1s;
+}
+.in{
+  left: -100%;
+}
+.up{
+  left: 5%;
+}
 .box{
-  background: red;
-  max-width: 500px;
-  margin: 2px auto;
+  border-bottom-right-radius: 15px;
+  background: #fff;
+  max-width: 580px;
+  height: 500px;
+  padding: 0 25px;
+  transition: 1s;
+}
+
+h2, .t-c{
+  text-align: center;
+  color: #3d3d3d;
+  font-weight: bold;
 }
 
 body{
-  background: gray;
+  background: url(../img/f1.jpg) no-repeat;
+  background-size: cover;
 }
 
 

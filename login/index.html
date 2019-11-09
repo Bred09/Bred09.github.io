@@ -3,7 +3,8 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+	<link rel="shortcut icon" href="../img/favicon.svg" type="image/svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cooki</title>
 
 	<link rel="stylesheet" href="style.css">
@@ -11,40 +12,58 @@
 </head>
 <body>
 
-	<div class="box">
-		<h1><b class="btn-link">Регистрация</b> / <i class="btn-link">Вход</i></h1>
+	<div class="box"><br><br>
+		<h2>Станте одним из нас!</h2><br>
 
 		<form action="">
 			<ul class="up">
 				<li>
-					<input type="text" placeholder="Логин">
+					<input class="login" type="text" placeholder="Логин">
 				</li>
+				<div class="pass-g">
+						<input class="pass-show pass" placeholder="Пароль" type="password">
+						<div class="show"></div>
+				</div>
 				<li>
-					<input class="pass-show" placeholder="Пароль" type="password">
-					<div class="show-pass"></div>
+					<input type="password" placeholder="Повторить" class="pass-show1 pass1">
+					<br>
+					<br>
+					<div class="msg" style="color: red;"></div>
 				</li>
-				<li>
-					<input type="password" placeholder="Повторить" class="pass-show1">
-				</li>
-				<li>
+				<br>
+				<li class="t-c">
 					<div class="checkbox"></div>
+					<p>Ознакомлен с <a href="" class="btn-link">правилами</a></p>
 				</li>
-				<li>
-					<button class="btn-green">Регистрация</button>
+				<br>
+				<br>
+				<br>
+				<li class="t-c btn">
+					<button class="btn-green go">Зарегистрироваться</button>
 				</li>
+
+				<hr>
+
+				<p class="t-c">Уже с нами? <i class="btn-link in-btn">Вход</i></p>
 			</ul>
 
 			<ul class="in">
 				<li>
-					<input type="text" placeholder="Логин">
+					<input class="login" type="text" placeholder="Логин">
 				</li>
-				<li>
-					<input type="password" placeholder="Пароль" class="pass-show">
-					<div class="show-pass"></div>
+				<div class="pass-g1">
+						<input type="password" placeholder="Пароль" class="pass-show1 pass1">
+						<div class="show i"></div>
+						<div class="msg min" style="color: red;"></div>
+				</div>
+				<br>
+				<li class="t-c btn">
+					<button class="btn-blue">Войти</button>
 				</li>
-				<li>
-					<button class="btn-blue">Вход</button>
-				</li>
+
+				<hr>
+
+				<br><p class="t-c">Ещё не с нами? <i class="btn-link up-btn">Регистрация</i></p>
 			</ul>
 		</form>
 	</div>
